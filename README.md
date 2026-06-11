@@ -17,10 +17,10 @@ Loan lenders face significant financial risk when borrowers fail to repay. This 
 ## 🖥️ App Screenshot
 
 ![App GUI](./screenshots/app_gui.png)
+![Prediction Result](screenshots/prediciton_result.png)
 ![DISTRIBUTION After SMOTE](screenshots/distribution_after_smote.png)
-![Model Comparison](screenshots/model_comparison.png)
-![Prediction Result](screenshots/prediction_result.png)
 ![RF Confusion Matrix](screenshots/rf_conf_matrix.png)
+![Model Comparison](screenshots/model_comparison.png)
 
 ---
 
@@ -136,4 +136,3 @@ Along with the probability score for each outcome.
 - **matplotlib / seaborn** — visualizations
 - **Streamlit** — web app deployment
 - **pickle** — model serialization
-
