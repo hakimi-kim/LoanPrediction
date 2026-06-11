@@ -9,7 +9,7 @@ scaler   = pickle.load(open('scaler.pkl', 'rb'))
 st.title("Loan Default Risk Predictor")
 st.write("Fill in the applicant details below to predict loan risk.")
 
-# ── Input Fields ────────────────────────────────────────────────
+# Input Fields
 person_age = st.number_input("Age", min_value=18, max_value=100, value=30)
 
 person_income = st.number_input("Annual Income (RM)", min_value=0, value=50000)
@@ -51,7 +51,7 @@ cb_person_default_on_file = st.selectbox(
 
 cb_person_cred_hist_length = st.number_input("Credit History Length (years)", min_value=0, max_value=30, value=5)
 
-# ── Predict Button ───────────────────────────────────────────────
+#Predict Button
 if st.button("Predict Risk"):
 
     # Arrange input in same column order as training data
