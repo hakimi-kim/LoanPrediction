@@ -62,11 +62,10 @@ Three models were trained and compared:
 
 | Model | Accuracy | Precision | Recall | F1-Score |
 |---|---|---|---|---|
-| Logistic Regression | — | — | — | — |
-| Decision Tree | — | — | — | — |
-| **Random Forest** ✅ | — | — | — | — |
+| Logistic Regression | 0.7844 | 0.7873 | 0.7793 | 0.7832 |
+| Decision Tree | 0.9002 | 0.8944 | 0.9076  | 0.9009 |
+| **Random Forest** ✅ | 0.9460 | 0.9797 | 0.9110 | 0.9441 |
 
-> Fill in your actual cross-validation scores from the notebook output.
 
 **Random Forest** was selected as the final model due to its highest overall performance and best recall on the default class.
 
